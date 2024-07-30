@@ -1,5 +1,5 @@
 import ".././App.css"
-
+import Button from './button'
 import React from 'react'
 
 function Header() {
@@ -16,6 +16,7 @@ function Header() {
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">DropDown</a></li>
                 <li><a href="#">Contact</a></li>
+                <Button name="Get Started"/>
             </ul>
         </nav>
     </header>
